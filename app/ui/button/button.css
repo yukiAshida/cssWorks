@@ -1,0 +1,24 @@
+@charset "UTF-8";
+.ui-button {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: #505050;
+  border-radius: 5px;
+  text-align: center;
+  overflow: hidden;
+  font-weight: bold;
+  background: linear-gradient(#ccccff 0%, #aaaaff 100%);
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.66);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.28);
+}
+
+.ui-button:active {
+  /*押したとき*/
+  -webkit-transform: translateY(2px);
+  transform: translateY(2px);
+  /*沈むように*/
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+  background-image: linear-gradient(#ccffff 0%, #bbbbff 100%);
+  /*グラデーションを明るく*/
+}
